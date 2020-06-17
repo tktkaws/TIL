@@ -11,7 +11,7 @@ on:
     branches: [ master ]
     
 env:
-  HOOK_URL: https://hooks.slack.com/services/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
+  HOOK_URL: https://hooks.slack.com/services/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
   REPO_NAME: TIL
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -22,4 +22,4 @@ jobs:
     - uses: actions/checkout@v1
     - name: Send Slack from gitlog
       run:
-        curl -X POST --data-urlencode "payload={\"channel\": \"#mokumoku\", \"username\": \"webhookbot\", \"text\": \"masterブランチが更新されました。\", \"icon_emoji\": \":ghost:\"}" https://hooks.slack.com/services/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
+        curl -X POST --data-urlencode "payload={\"channel\": \"#mokumoku\", \"username\": \"webhookbot\", \"text\": \"masterブランチが更新されました。\", \"icon_emoji\": \":ghost:\"}" ${HOOK_URL}
