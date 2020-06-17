@@ -23,4 +23,4 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 
 🐧 0616 Vue.js
 
-🐧 0616 Entory Test
+🐧 0617 Entory Test
