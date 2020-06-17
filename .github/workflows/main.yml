@@ -21,6 +21,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Send Slack from gitlog
-      run: |
-        git log --numstat -m -1 --date=iso --pretty='[%ad] %h %an : %s' > gitlog.txt
-        curl -X POST --data-urlencode "payload={\"channel\": \"#hogehoge\", \"username\": \"github_aciton_bot\", \"text\": \"*${REPO_NAME} masterブランチが更新されました。*\n `cat gitlog.txt`\", \"icon_emoji\": \":github_icon:\"}" https://hooks.slack.com/services/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
+      run:
+        curl -X POST --data-urlencode "payload={\"channel\": \"#mokumoku\", \"username\": \"webhookbot\", \"text\": \"masterブランチが更新されました。\", \"icon_emoji\": \":ghost:\"}" https://hooks.slack.com/services/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
