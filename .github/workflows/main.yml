@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+    
+env:
+  HOOK_URL: https://hooks.slack.com/services/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
+  REPO_NAME: TIL
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Send Slack from gitlog
+      run: |
+        git log --numstat -m -1 --date=iso --pretty='[%ad] %h %an : %s' > gitlog.txt
+        curl -X POST --data-urlencode "payload={\"channel\": \"#hogehoge\", \"username\": \"github_aciton_bot\", \"text\": \"*${REPO_NAME} masterブランチが更新されました。*\n `cat gitlog.txt`\", \"icon_emoji\": \":github_icon:\"}" ${HOOK_URL}
