@@ -30,3 +30,8 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 🐧 061９ Paiza B
 
 🐧 0620 Vuex
+
+🐧 0621 Shonan.py
+
+🐧 0622 Nuxt.js
+
