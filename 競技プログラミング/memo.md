@@ -4,27 +4,6 @@ Rubyの配列で使えるメソッド、二次元配列の使い方
 https://qiita.com/dddisk/items/8ad2d5570edf3c577eea
 
 
-入出力編
-基本的な入力。
-
-N = gets.to_i               # 単一整数
-a = gets.split.map(&:to_i)  # スペースで区切られた複数の整数
-a = N.times.map{gets.to_i}  # 縦に並んだ複数の整数。たまにある
-S = gets.chomp              # 文字列。chompを付けないと改行文字がついてくる
-以下のような形式の入力もよく見ますね。
-
-N
-a_1 b_1
-...
-a_N b_N
-これは次のように書くとスマートです。
-
-N = gets.to_i
-a, b = N.times.map{gets.split.map(&:to_i)}.transpose
-
-# [[a_1, b_1], ..., [a_N, b_N]] を転置して
-# [[a_1, ..., a_N], [b_1, ..., b_N]] にする
-出力は puts を使うとよいです。数値も文字列も出力できて、改行文字が自動で付与されます。
 
 数値編
 多倍長整数

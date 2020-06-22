@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eace9843-9f28-4a90-8f4b-eca5cf6be4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/競技プログラミング/ABCProblems.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/競技プログラミング/配列操作.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/History.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/History.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/memo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/sub.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/sub.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cqViQOe797b52iuWhWM7gMxZxI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -35,7 +43,25 @@
       <recent name="$PROJECT_DIR$/学習項目" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Ruby.atcoder">
+    <configuration name="atcoder" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="TIL" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/競技プログラミング" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/競技プログラミング/atcoder.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sub" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="TIL" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -56,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.atcoder" />
         <item itemvalue="Ruby.sub" />
       </list>
     </recent_temporary>
@@ -84,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591256236425</updated>
       <workItem from="1591256237983" duration="2290000" />
+      <workItem from="1592795478276" duration="720000" />
+      <workItem from="1592813257529" duration="1133000" />
     </task>
     <servers />
   </component>
@@ -91,12 +120,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1592814308927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592814308927" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1592814308926">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592814308926" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1592814308926">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592814308926" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1592814308927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592814308927" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1591256707139">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1591256707139" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TIL@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592814100489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
     <SUITE FILE_PATH="coverage/TIL@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592795504406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Atcoder_Latest_Ruby" MODULE_NAME="TIL" />
   </component>
 </project>
