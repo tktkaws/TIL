@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e56300e-2b51-4e36-b5ba-b7da6fd4e87b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dQrHGvjzbuC0c3askuVeOreVmE" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="3 20" />
+      <command value="ruby /Users/takayukitakahashi/RubymineProjects/Atcoder_Latest_Ruby/atcoder.rb" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.sub">
+    <configuration name="atcoder" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Atcoder_Latest_Ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/atcoder.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ruby /Users/takayukitakahashi/RubymineProjects/Atcoder_Latest_Ruby/atcoder.rb" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Atcoder_Latest_Ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/atcoder.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sub" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Atcoder_Latest_Ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/sub.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.sub" />
+        <item itemvalue="Ruby.atcoder" />
+        <item itemvalue="Ruby.ruby /Users/takayukitakahashi/RubymineProjects/Atcoder_Latest_Ruby/atcoder.rb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e56300e-2b51-4e36-b5ba-b7da6fd4e87b" name="Default Changelist" comment="" />
+      <created>1592368068065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592368068065</updated>
+      <workItem from="1592368069373" duration="740000" />
+      <workItem from="1592518526381" duration="7373000" />
+      <workItem from="1592547828595" duration="2321000" />
+      <workItem from="1592782248382" duration="8895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1396" height="255" key="GridCell.Tab.0.bottom" timestamp="1592791001867">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="255" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592791001867" />
+    <state width="1396" height="255" key="GridCell.Tab.0.center" timestamp="1592791001865">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="255" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592791001865" />
+    <state width="1396" height="255" key="GridCell.Tab.0.left" timestamp="1592791001865">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="255" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592791001865" />
+    <state width="1396" height="255" key="GridCell.Tab.0.right" timestamp="1592791001866">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="255" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592791001866" />
+    <state x="228" y="100" key="SettingsEditor" timestamp="1592522134189">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="228" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1592522134189" />
+    <state x="384" y="210" width="672" height="677" key="run.anything.popup" timestamp="1592523569236">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="384" y="210" width="672" height="677" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1592523569236" />
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1592788023148">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1592788023148" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Atcoder_Latest_Ruby@ruby__Users_takayukitakahashi_RubymineProjects_Atcoder_Latest_Ruby_atcoder_rb.rcov" NAME="ruby /Users/takayukitakahashi/RubymineProjects/Atcoder_Latest_Ruby/atcoder.rb Coverage Results" MODIFIED="1592524320556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Atcoder_Latest_Ruby" />
+    <SUITE FILE_PATH="coverage/Atcoder_Latest_Ruby@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592787600308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Atcoder_Latest_Ruby" />
+    <SUITE FILE_PATH="coverage/Atcoder_Latest_Ruby@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592791001815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Atcoder_Latest_Ruby" />
+  </component>
+</project>
