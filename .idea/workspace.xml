@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eace9843-9f28-4a90-8f4b-eca5cf6be4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/競技プログラミング/ABCProblems.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/競技プログラミング/配列操作.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/競技プログラミング/その他文法スニペット.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/競技プログラミング/回答履歴/ABCProblems.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/競技プログラミング/回答履歴/PaizaProblems.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/競技プログラミング/History.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/History.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/ABCProblems.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/memo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/sub.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/sub.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/標準出力スニペット.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/標準出力スニペット.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/配列操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/配列操作スニペット.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,8 @@
       <updated>1591256236425</updated>
       <workItem from="1591256237983" duration="2290000" />
       <workItem from="1592795478276" duration="720000" />
-      <workItem from="1592813257529" duration="1133000" />
+      <workItem from="1592813257529" duration="1732000" />
+      <workItem from="1592860176486" duration="7685000" />
     </task>
     <servers />
   </component>
@@ -120,29 +124,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1592814308927">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1592871660903">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592814308927" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1592814308926">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592871660903" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1592871660902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592814308926" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1592814308926">
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592871660902" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1592871660901">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592814308926" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1592814308927">
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592871660901" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1592871660903">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592814308927" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1591256707139">
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592871660903" />
+    <state x="385" y="213" width="672" height="676" key="search.everywhere.popup" timestamp="1592871026780">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1591256707139" />
+    <state x="385" y="213" width="672" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1592871026780" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TIL@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592814100489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
-    <SUITE FILE_PATH="coverage/TIL@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592795504406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Atcoder_Latest_Ruby" MODULE_NAME="TIL" />
+    <SUITE FILE_PATH="coverage/TIL@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592871660004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
+    <SUITE FILE_PATH="coverage/TIL@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592868745632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
   </component>
 </project>
