@@ -1,24 +1,56 @@
-x, y = gets.split.map(&:to_i)  # スペースで区切られた複数の整数
+X, Y, Z = gets.split.map(&:to_i)
 
-t = 0
-k = 0
+a = Array.new(Z).map{Array.new(Z).map{Array.new(Z, "#")}}
+p a
 
-answer = "No"
+[[["#", "#", "#"],
+  ["#", "#", "."],
+  ["#", ".", "."]],
 
-(0..x).each do |i|
-  t = i
-  k = x - i
-  p "t"
-  p t
-  p "k"
-  p k
-  amnt_legs = (2 * t) + (4 * k)
-  p "amnt_legs"
-  p amnt_legs
-  if amnt_legs == y
-    answer = "Yes"
-    break
-  end
-end
+ [["#", "#", "."],
+  ["#", "#", "."],
+  [".", ".", "."]],
 
-puts answer
+ [["#", "#", "."],
+  ["#", "#", "."],
+  [".", ".", "."]]]
+
+#[[["#", "#", "#"],
+#  ["#", "#", "#"],
+#  [nil, nil, nil]],
+#
+# [[nil, nil, nil],
+#  [nil, nil, nil],
+#  [nil, nil, nil]],
+#
+# [[nil, nil, nil],
+#  [nil, nil, nil],
+#  [nil, nil, nil]]]
+
+#ary_all = []
+#ary_second = []
+#ary = []
+#
+#Z.times do |i|
+#
+#  Z.times do |n|
+#    ary << gets.chomp.split('')
+#  end
+#  ary_second << ary
+#end
+#
+#p ary_all
+
+
+#入力例1
+#[["#", "#", "#"], ["#", "#", "."], ["#", ".", "."]]
+#[["#", "#", "#"],
+# ["#", "#", "."],
+# ["#", ".", "."]]
+#
+#出力例1
+#[["#", "#", "."], ["#", "#", "."], ["#", "#", "#"]]
+#
+#[["#", "#", "."],
+# ["#", "#", "."],
+# ["#", "#", "#"]]

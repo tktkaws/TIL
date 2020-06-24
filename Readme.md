@@ -35,5 +35,7 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 
 🐧 0622 Nuxt.js
 
-🐧 0622 PaizaB
+🐧 0623 PaizaB
+
+🐧0622 PaizaB
 
