@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eace9843-9f28-4a90-8f4b-eca5cf6be4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.commit_template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux/Linuxメモ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.commit_template" beforeDir="false" afterPath="$PROJECT_DIR$/.commit_template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/atcoder.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/競技プログラミング/sub.rb" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/sub.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/競技プログラミング/メモ.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/メモ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/標準入力スニペット.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/競技プログラミング/回答履歴/ABCProblems.md" beforeDir="false" afterPath="$PROJECT_DIR$/競技プログラミング/回答履歴/ABCProblems.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
       <recent name="$PROJECT_DIR$/学習項目" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.atcoder">
+  <component name="RunManager" selected="Ruby.sub">
     <configuration name="atcoder" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="TIL" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -83,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.atcoder" />
         <item itemvalue="Ruby.sub" />
+        <item itemvalue="Ruby.atcoder" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +114,7 @@
       <workItem from="1592813257529" duration="1732000" />
       <workItem from="1592860176486" duration="8084000" />
       <workItem from="1592893678187" duration="2109000" />
-      <workItem from="1592956330041" duration="6115000" />
+      <workItem from="1592956330041" duration="10614000" />
     </task>
     <servers />
   </component>
@@ -128,29 +126,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="401" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1592975913168" />
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1592964193075">
+    <state x="299" y="61" key="CommitChangelistDialog2" timestamp="1592983660858">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592964193075" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1592964193074">
+    <state x="299" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1592983660858" />
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1592983438485">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592964193074" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1592964193073">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592983438485" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1592983438484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592964193073" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1592964193075">
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592983438484" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1592983438483">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592964193075" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592983438483" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1592983438484">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592983438484" />
+    <state x="228" y="100" key="SettingsEditor" timestamp="1592980578186">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="228" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1592980578186" />
     <state x="385" y="213" width="672" height="676" key="search.everywhere.popup" timestamp="1592871026780">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="672" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1592871026780" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TIL@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592964193039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
-    <SUITE FILE_PATH="coverage/TIL@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592868745632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
+    <SUITE FILE_PATH="coverage/TIL@atcoder.rcov" NAME="atcoder Coverage Results" MODIFIED="1592980987781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
+    <SUITE FILE_PATH="coverage/TIL@sub.rcov" NAME="sub Coverage Results" MODIFIED="1592983438461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/競技プログラミング" MODULE_NAME="TIL" />
   </component>
 </project>

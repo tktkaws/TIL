@@ -58,6 +58,66 @@ puts sorted[0..(K-1)].sum
 なし！
 ~~~
 
+171_c
+~~~
+自分の回答
+時間：5分
+結果：WA
+
+c = gets.chomp
+
+alf = []
+("a".."z").each do |i|
+  alf << i
+end
+
+alf_aa = []
+aa = 0
+("a".."z").each do |i|
+  ("a".."z").each do |n|
+    #p "i : #{i}"
+    #p "n : #{n}"
+    aa = i.to_s + n.to_s
+    alf_aa << aa
+  end
+end
+
+new = alf + alf_aa
+p new
+max_number = 1000000000000001
+p new.length
+p(max_number -new.length)
+
+
+alf_aaa = []
+aaa = 0
+("a".."z").each do |i|
+  ("a".."z").each do |j|
+    ("a".."z").each do |k|
+      aaa = i.to_s + j.to_s + k.to_s
+      alf_aaa << aaa
+    end
+  end
+end
+
+
+
+他の方の回答
+
+n=gets.to_i
+a=[*'a'..'z']
+res= ''
+while n > 0
+  n-=1
+  res += a[n%26]
+  n/=26
+end
+puts res.reverse
+
+
+差分
+
+~~~
 
 
 

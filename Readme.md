@@ -37,5 +37,5 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 
 🐧 0623 PaizaB
 
-🐧0622 PaizaB
+🐧 | 0624 Linux
 
