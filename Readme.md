@@ -37,6 +37,10 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 
 🐧 0623 PaizaB
 
-🐧 | 0624 Linux
+🐧. 0624 Linux
 
-:penguin:. 0625 PaizaB #🐧
+🐧. 0625 PaizaB
+
+🐧. 0626 PaizaB
+
+🐧. 0627 technical test
