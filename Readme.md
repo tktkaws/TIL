@@ -1,46 +1,11 @@
 ## TIL
-Githubのリポジトリ「TIL」を使って小さなアウトプットを習慣化する
+
+Github のリポジトリ「TIL」を使って小さなアウトプットを習慣化する
 
 https://qiita.com/nemui_/items/239335b4ed0c3c797add
 
->「Today I Learned」の略で、Github上にTILというリポジトリを作成してそこに今日覚えたことを書いていくというものです。
+> 「Today I Learned」の略で、Github 上に TIL というリポジトリを作成してそこに今日覚えたことを書いていくというものです。
 
->何れにせよ、ただ単にGitHubに草を生やすことが目的というマインドに陥ってしまっては本末転倒なので、間違っても本質的な目的は見失わないことがポイントかと思います。
+> 何れにせよ、ただ単に GitHub に草を生やすことが目的というマインドに陥ってしまっては本末転倒なので、間違っても本質的な目的は見失わないことがポイントかと思います。
 
-
-
-:penguin: 0610 vuex
-
-:penguin: 0611 vuex
-
-:penguin: 061２ AtCoder
-
-🐧 0613 AtCoder
-
-🐧 0614 AtCoder
-
-🐧 0615 Paiza B
-
-🐧 0616 Vue.js
-
-🐧 0617 Entory Test
-
-🐧 0618 Entory Sheet
-
-🐧 061９ Paiza B
-
-🐧 0620 Vuex
-
-🐧 0621 Shonan.py
-
-🐧 0622 Nuxt.js
-
-🐧 0623 PaizaB
-
-🐧. 0624 Linux
-
-🐧. 0625 PaizaB
-
-🐧. 0626 PaizaB
-
-🐧. 0627 technical test
+🐧. 0711 Python
