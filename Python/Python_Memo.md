@@ -219,3 +219,103 @@ append_file ⎵ = ⎵ open('output.txt', ⎵ 'a')
 append_file.write('Hello⎵Atom!\n')
 append_file.close()
 ```
+
+Python では in 演算子によって、任 意の文字列が含まれているかどうかを調べます。
+
+（ページ 142).
+
+if⎵'こんにちは'⎵in⎵'こんにちは、お元気ですか': ･･･「こんにちは」が含まれているので True
+
+⎵⎵⎵⎵print('コンニチハ')
+
+（ページ 142).
+
+繰り返し処理を抜けるには break 文を使用します。
+
+（ページ 143).
+
+変数の中身を 直接判定する書き方も使えます。
+
+（ページ 146).
+
+例えば文字列の 場合には、空文字列（長さが 0 の文字列）は False と 判断されます。空文字列「ではない」ことを条件に したい場合は、not を使用します。以下のプログラ
+
+（ページ 146).
+
+変数の中身を直接判定する書き方
+
+（ページ 146).
+
+name⎵=⎵''
+
+if⎵name: ･･･････ 空文字のため、if 文の条件に合致しない
+
+⎵⎵⎵⎵print('名前は',⎵name,⎵'です')
+
+（ページ 146).
+
+テキストファイルの文字コードに注意が必要
+
+（ページ 150).
+
+日本語には utf-8 や Windows でよく使われる Shift\_ JIS など、いくつかの文字コードが存在します。誤っ た文字コードを指定してファイルを読み込むと、プ ログラムでエラーが発生します。本書では文字コー ドとして utf-8 を使用します。
+
+（ページ 150).
+
+日本語のファイルを読み込む
+
+（ページ 151).
+
+text_file⎵=⎵open('pybot.txt',⎵encoding='utf-8')･･･ ファイルの文字コードを指定
+
+（ページ 151).
+
+あいさつの定義ファイルを作成する
+
+（ページ 152).
+
+こんにちは,コンニチハ
+
+（ページ 152).
+
+あいさつの定義ファイルからデータを読み込んで、 行ごとの文字列データにします。文字コード（utf-8） を指定してファイルを開きます ❶。read()でファイ ルの中身をすべて読み込み、改行（\n）で分割して 行ごとの文字列のリストを作成します ❷。
+
+command_file⎵=⎵open('pybot.txt',⎵encoding='utf-8')
+
+raw_data⎵=⎵command_file.read()
+
+command_file.close()
+
+lines⎵=⎵raw_data.splitlines()
+
+あいさつの辞書データを生成する
+
+command_file⎵=⎵open('pybot.txt',⎵encoding='utf-8')
+
+（ページ 152).
+
+raw_data⎵=⎵command_file.read()
+
+003 command_file.close()
+
+004 lines⎵=⎵raw_data.splitlines()
+
+（ページ 152).
+
+005
+
+006 bot_dict⎵=⎵{}
+
+007 for⎵line⎵in⎵lines:
+
+（ページ 152).
+
+008 ⎵⎵⎵⎵word_list⎵=⎵line.split(',')
+
+009 ⎵⎵⎵⎵key⎵=⎵word_list[0]
+
+010 ⎵⎵⎵⎵response⎵=⎵word_list[1]
+
+011 ⎵⎵⎵⎵bot_dict[key]⎵=⎵response
+
+（ページ 153).
