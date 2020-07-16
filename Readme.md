@@ -37,3 +37,7 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 🐧. 0713 Python
 
 🐧. 0714 Python
+
+🐧. 0715 Django
+
+🐧. 0716 Django
