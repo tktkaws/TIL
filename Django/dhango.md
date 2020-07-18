@@ -1,10 +1,18 @@
 基本コマンド
 
-DjangoBros/
-\$ source djangobros_venv/bin/activate
+<!-- DjangoBros/ -->
 
-(djangorbos_venv)
-\$ deactivate
+source djangobros_venv/bin/activate
 
-DjangoBros/dgango_blog/
-\$ python manage.py runserver
+<!-- (djangorbos_venv) -->
+
+deactivate
+
+<!-- DjangoBros/dgango_blog/ -->
+
+python manage.py runserver
+
+<!-- console -->
+
+python3
+quit()
