@@ -149,17 +149,41 @@ else:
 
 ```
 
-## https://atcoder.jp/contests/abc173/tas
+## 169
 
 #### 最速
 
 ```python
+import sys
+
+def main():
+  N = int(input())
+  P = sys.stdin.readline().rstrip().split()
+  if '0' in P:
+    print(0)
+    return
+  ans = 1
+  for a in P:
+    ans *= int(a)
+    if ans > 1000000000000000000:
+      print(-1)
+      return
+  print(ans)
+
+if __name__ == "__main__":
+    main()
 
 ```
 
 #### 最遅
 
 ```python
+n,*l=map(int,open(0).read().split())
+from heapq import *
+heapify(l)
+while len(l)>1:
+  heappush(l,heappop(l)*heappop(l))
+print([l[0],-1][l[0]>10**18])
 
 ```
 

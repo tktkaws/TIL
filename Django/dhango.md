@@ -16,3 +16,8 @@ python manage.py runserver
 
 python3
 quit()
+
+<!-- /Dhangomemo -->
+
+source memo_venv/bin/activate
+cd memo

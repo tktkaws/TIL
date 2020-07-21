@@ -45,3 +45,9 @@ https://qiita.com/nemui_/items/239335b4ed0c3c797add
 🐧. 0717 Django
 
 🐧. 0718 Django
+
+🐧. 0719 Django
+
+🐧. 0720 Django
+
+🐧. 0721 Django
