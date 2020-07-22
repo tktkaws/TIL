@@ -187,17 +187,38 @@ print([l[0],-1][l[0]>10**18])
 
 ```
 
-## https://atcoder.jp/contests/abc173/tas
+## 168
 
 #### 最速
 
 ```python
+K = int(input())
+S = list(input())
+
+if K >= len(S):
+  for i in S:
+    print(i,end="")
+else:
+  for i in range(K):
+    print(S[i],end="")
+  print("...")
 
 ```
 
 #### 最遅
 
 ```python
+import numpy as np
+import scipy as sp
+import math
+
+N = int(input())
+S = input()
+M = int(len(S))
+if(M<=N):
+  print(S)
+else:
+  print(S[0:N] + "...")
 
 ```
 

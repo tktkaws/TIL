@@ -326,17 +326,34 @@ print(ans)
 
 ```
 
-## https://atcoder.jp/contests/abc173/tas
+## 168
 
 #### 最速
 
 ```python
+import math
+
+A,B,H,M=map(int, input().split())
+
+sh=math.pi*(H+M/60)/6
+sm=math.pi*M/30
+
+s=abs(sh-sm)
+
+C=math.sqrt(A**2+B**2-2*A*B*math.cos(s))
+
+print(C)
 
 ```
 
 #### 最遅
 
 ```python
+a,b,h,m=map(int,input().split())
+import numpy as np
+theta = ((h+m/60)/12 - m/60)*2*np.pi
+c=a**2+b**2-2*a*b*np.cos(theta)
+print(np.sqrt(c))
 
 ```
 
