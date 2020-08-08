@@ -319,3 +319,40 @@ raw_data⎵=⎵command_file.read()
 011 ⎵⎵⎵⎵bot_dict[key]⎵=⎵response
 
 （ページ 153).
+
+JupyterLab
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.931). Kindle 版.
+
+JupyterLab は、11.2 節で紹介する pip コマンドでインストールでき、jupyterlab コマンド 1 つで簡単に使い始められます。また、GoogleColaboratory 注 b では、クラウド上で用意されている JupyterNotebook の環境を、設定不要かつ無料で誰でも利用できます。さらに、GoogleCloudPlatform の AIPlatformNotebooks 注 c、AmazonWebServices の AmazonSageMaker 注 d、MicrosoftAzure の AzureNotebooks 注 e など多くのクラウドベンダーから、JupyterLab や JupyterNotebook の環境を簡単に構築できるサービスが提供されています。
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.931-938). Kindle 版.
+
+quit()を実行する代わりに Ctrl ＋ D（Windows の場合は、Ctrl ＋ Z、Enter）でも終了できます。
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1029-1031). Kindle 版.
+
+対話モードでよく使う組み込み関数
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1034). Kindle 版.
+
+type()── オブジェクトの型を調べる
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1039). Kindle 版.
+
+dir()── オブジェクトの属性を調べる
+Python では、オブジェクトが持つ変数やメソッドを総称して属性と呼びます。オブジェクトの属性は obj.x のようにドット（.）でつなげると参照できます。dir()は、引数で渡したオブジェクトの属性の一覧をリストで返してくれる組み込み関数です。dir()も type()と同様、式の結果や外部で定義されている関数の戻り値を調べるときに活躍します。
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1047-1051). Kindle 版.
+
+help()── ヘルプページを表示する
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1056). Kindle 版.
+
+ヘルプページでの操作は、CLI（CommandLineInterface）でよくある操作体系と似ています。j または ↓ で下へ移動、k または ↑ で上へ移動、/で検索、q で終了（Windows の場合は、Enter で下へ移動、q で終了）です。
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1061-1065). Kindle 版.
+
+特定のメソッドの引数や戻り値を調べたいときは、組み込み関数 help()にそのメソッドを直接渡すと便利です。筆者は、正確なメソッド名が思い出せない場合には、先ほどの組み込み関数 dir()でめぼしい名前を見つけてから help()に渡しています。
+
+陶山 嶺. Python 実践入門 ── 言語の力を引き出し、開発効率を高める (WEB+DB PRESS plus) (Japanese Edition) (Kindle の位置 No.1070-1072). Kindle 版.
