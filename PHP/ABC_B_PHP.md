@@ -1,5 +1,35 @@
 ## ABCProblems_B_PHP
 
+## https://kenkoooo.com/atcoder/#/table/
+
+## 雛形
+
+### url
+
+### 問題文
+
+```
+
+```
+
+##### アルゴリズム例
+
+```
+
+```
+
+##### 回答　最速
+
+```php
+
+```
+
+##### 回答　最遅
+
+```php
+
+```
+
 ## https://atcoder.jp/contests/abc174/tasks/abc174_b
 
 ### 問題文
@@ -67,5 +97,109 @@ for ($i = 1; $i <= $stdins[0][0]; $i++) {
 
 echo $count;
 ?>
+
+```
+
+### https://atcoder.jp/contests/abc173/tasks/abc173_b
+
+### 問題文
+
+```
+高橋君は、プログラミングコンテスト AXC002 に参加しており、問題 A にコードを提出しました。
+
+この問題には
+N
+ 個のテストケースがあります。
+
+各テストケース
+i
+ (
+1
+≤
+i
+≤
+N
+) について、ジャッジ結果を表す文字列
+S
+i
+ が与えられるので、ジャッジ結果が AC, WA, TLE, RE であったものの個数をそれぞれ求めてください。
+
+出力形式は、出力欄を参照してください。
+
+```
+
+##### アルゴリズム例
+
+```
+標準入力
+
+入力に対してfor文
+if文でAC, WA, TLE, REそれぞれカウント
+変数に代入
+
+出力
+```
+
+##### 回答　最速
+
+```php
+<?php
+$input = file_get_contents('php://stdin');
+$list = ['AC', 'WA', 'TLE', 'RE'];
+
+foreach($list as $row) {
+  echo $row .' x ' . substr_count($input, $row) . "\n";
+}
+
+
+```
+
+##### 回答　最遅
+
+```php
+<?php
+class Scanner {
+    private $arr = [];
+    private $count = 0;
+    private $pointer = 0;
+    public function next() {
+        if($this->pointer >= $this->count) {
+            $str = trim(fgets(STDIN));
+            $this->arr = explode(' ', $str);
+            $this->count = count($this->arr);
+            $this->pointer = 0;
+        }
+        $result = $this->arr[$this->pointer];
+        $this->pointer++;
+        return $result;
+    }
+    public function hasNext() {
+        return $this->pointer < $this->count;
+    }
+    public function nextInt() {
+        return (int)$this->next();
+    }
+    public function nextDouble() {
+        return (double)$this->next();
+    }
+}
+class out {
+    public static function println($str = "") {
+        echo $str . PHP_EOL;
+    }
+}
+
+$AC=$WA=$TLE=$RE=0;
+$sc = new Scanner();
+$a = $sc->nextInt();
+for($i=0;$i<$a;$i++){
+  $b = $sc->next();
+  $$b++;
+}
+out::println("AC x {$AC}");
+out::println("WA x {$WA}");
+out::println("TLE x {$TLE}");
+out::println("RE x {$RE}");
+
 
 ```
