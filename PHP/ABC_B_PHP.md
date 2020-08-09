@@ -4,6 +4,8 @@
 
 ## 雛形
 
+---
+
 ### url
 
 ### 問題文
@@ -15,7 +17,9 @@
 ##### アルゴリズム例
 
 ```
+標準入力
 
+標準出力
 ```
 
 ##### 回答　最速
@@ -29,6 +33,8 @@
 ```php
 
 ```
+
+---
 
 ## https://atcoder.jp/contests/abc174/tasks/abc174_b
 
@@ -200,6 +206,68 @@ out::println("AC x {$AC}");
 out::println("WA x {$WA}");
 out::println("TLE x {$TLE}");
 out::println("RE x {$RE}");
+
+
+```
+
+### https://atcoder.jp/contests/abc172/tasks/abc172_b
+
+### 問題文
+
+```
+文字列
+S
+,
+T
+ が与えられます。次の操作を繰り返して
+S
+ を
+T
+ に変更するとき、操作回数の最小値を求めてください。
+
+操作：
+S
+ の
+1
+ 文字を選んで別の文字に書き換える
+
+```
+
+##### アルゴリズム例
+
+```
+標準入力
+
+文字列A
+文字列B
+の配列を作成、
+同じインデックス同士で比較して、違ったらカウント
+標準出力
+```
+
+##### 回答　最速
+
+```php
+<?php
+  $s = trim(fgets(STDIN));
+  $t = trim(fgets(STDIN));
+  $cnt = 0;
+  for($i=0; $i<strlen($s); $i++){
+      if($s[$i] != $t[$i]){
+          $cnt++;
+      }
+  }
+  echo $cnt;
+
+```
+
+##### 回答　最遅
+
+```php
+<?php
+fscanf(STDIN, "%s", $S);
+fscanf(STDIN, "%s", $T);
+printf("%d", array_sum(array_map(function($x, $y){return ($x !== $y) * 1;}, str_split($S), str_split($T))));
 
 
 ```
