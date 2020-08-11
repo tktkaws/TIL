@@ -271,3 +271,58 @@ printf("%d", array_sum(array_map(function($x, $y){return ($x !== $y) * 1;}, str_
 
 
 ```
+
+### https://atcoder.jp/contests/abc171/tasks/abc171_b
+
+##### アルゴリズム例
+
+```
+標準入力
+価格の配列を作成
+価格の低い順にソート
+K個を抽出してsum
+標準出力
+```
+
+##### 回答　最速
+
+```php
+<?php
+
+$input = trim(fgets(STDIN));
+$input_array = explode(" ", $input);
+
+$input = trim(fgets(STDIN));
+$kane_array = explode(" ", $input);
+sort($kane_array);
+
+$sum = 0;
+for ($i = 0; $i < $input_array[1]; $i++) {
+    $sum += $kane_array[$i];
+}
+echo $sum;
+```
+
+##### 回答　最遅
+
+```php
+<?php
+
+fscanf(STDIN, "%d %d", $a, $b);
+$line = fgets(STDIN);
+$arr = array_map('intval', explode(' ', $line));
+$sum = 0;
+$num = count($arr);
+
+for ($i = 0; $i < $b; $i++) {
+  $min = min($arr);
+  $min_key = array_search($min, $arr);
+  $sum += $min;
+  unset($arr[$min_key]);
+  $arr = array_values($arr);
+
+}
+
+echo $sum;
+
+```
