@@ -4,15 +4,9 @@
 
 ## 雛形
 
----
+<!-- --------------------------------------------------------------- -->
 
 ### url
-
-### 問題文
-
-```
-
-```
 
 ##### アルゴリズム例
 
@@ -34,7 +28,7 @@
 
 ```
 
----
+<!-- --------------------------------------------------------------- -->
 
 ## https://atcoder.jp/contests/abc174/tasks/abc174_b
 
@@ -324,5 +318,70 @@ for ($i = 0; $i < $b; $i++) {
 }
 
 echo $sum;
+
+```
+
+### url
+
+##### アルゴリズム例
+
+```
+標準入力
+X匹　Y本
+鶴2本
+亀4本
+
+鶴t + 亀k == Y
+t + K == X
+
+t=0, k=Y
+t ++ k--
+YになればOK
+
+標準出力
+```
+
+##### 回答　最速
+
+```php
+<?php
+//$N = (int)trim(fgets(STDIN));
+list($x,$y) = array_map('intval',explode(" ",trim(fgets(STDIN))));
+//$S = trim(fgets(STDIN));
+//$x = array_map('intval',explode(" ",trim(fgets(STDIN))));
+
+if ($x * 2 > $y) {
+  printf("No\n");
+  exit;
+}
+
+for($i=0;$i<=100;$i++) {
+  for($j=0;$j<=100;$j++) {
+    if ($j+$i>$x) break;
+    if (($i*2 + $j*4)==$y) {
+      printf("Yes\n");
+      exit;
+    }
+  }
+}
+printf("No\n");
+
+```
+
+##### 回答　最遅
+
+```php
+<?php
+// Your code here!
+fscanf(STDIN,"%d %d",$x,$y);
+
+for($a=0; $a<$x+1; ++$a){
+    if(2*$a+4*($x-$a)==$y){
+        echo 'Yes';
+        exit;
+    }
+}
+echo 'No';
+?>
 
 ```
